@@ -5,8 +5,8 @@ import { logo } from '../assets'
 const Hero = () => {
     return (
         <header className='w-full flex justify-center items-center flex-col'>
-            <nav className='flex justify-between items-center w-full mb-10 pt-3 mt-3'>
-                <img src={logo} alt="logo" className='w-28 object-contain' />
+            <nav className='flex justify-between items-center w-full mb-10 pt-3 mt-5'>
+                <img src={logo} alt="logo" className='w-60 object-contain' />
 
                 <button
                     type="button"
