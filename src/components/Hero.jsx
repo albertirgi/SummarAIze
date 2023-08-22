@@ -5,14 +5,14 @@ import { logo } from '../assets'
 const Hero = () => {
     return (
         <header className='w-full flex justify-center items-center flex-col'>
-            <nav className='flex justify-between items-center w-full mb-10 pt-3'>
+            <nav className='flex justify-between items-center w-full mb-10 pt-3 mt-3'>
                 <img src={logo} alt="logo" className='w-28 object-contain' />
 
                 <button
                     type="button"
-                    onClick={() => window.open('https://github.com/albertirgi')}
-                    className='black_btn'>
-                    GitHub
+                    onClick={() => window.open('https://albertirgi.com/')}
+                    className='black_btn font-poppins mt-1'>
+                    {'</>'} albertirgi {'</>'}
                 </button>
             </nav>
 
