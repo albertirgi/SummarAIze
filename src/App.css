@@ -88,12 +88,20 @@
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
 }
 
+.head_text_1 {
+  @apply mt-5 text-3xl font-extrabold leading-[1.15] text-black sm:text-4xl text-center;
+}
+
 .orange_gradient {
   @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
 }
 
-.desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+.desc_1 {
+  @apply mt-10 text-sm text-orange-600 sm:text-lg max-w-2xl italic;
+}
+
+.desc_2 {
+  @apply text-sm sm:text-lg max-w-2xl;
 }
 
 .url_input {
