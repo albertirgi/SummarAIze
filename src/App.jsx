@@ -32,7 +32,6 @@ const App = () => {
         <Hero />
         <Demo />
         <div>
-          <button onClick={triggerBuild}>Trigger Build</button>
           <p>{buildStatus}</p>
         </div>
         <Footer />
