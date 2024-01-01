@@ -96,6 +96,10 @@
   @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
 }
 
+.img1 {
+  @apply max-w-2xl rounded-2xl;
+}
+
 .desc_1 {
   @apply mt-10 text-sm text-orange-600 sm:text-lg max-w-2xl italic;
 }

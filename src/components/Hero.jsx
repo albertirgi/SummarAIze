@@ -4,6 +4,12 @@ const Hero = () => {
             <nav className='flex justify-between items-center w-full mb-10 pt-3 mt-5'>
                 <h1 className='head_text_1'>Mindful<span className='orange_gradient'>Youth</span></h1>
 
+                <button
+                    type="button"
+                    onClick={() => window.open('https://instagram.com/abirph_?')}
+                    className='black_btn font-poppins mt-1'>
+                    Abi Ranatha Putra Hartawan - 0106012010158
+                </button>
             </nav>
 
             <h1 className='head_text mb-10'>
@@ -194,9 +200,65 @@ Depending on how you are feeling and your needs, there are a lot of different ki
             </h1>
             <br />
 
-            <h2 className="desc_2 mb-20">
+            <h2 className="desc_2 mb-10">
             A mental health that is taken care of allows you to face life events, while keeping psychological disorders at bay. Its main principle is to better access and manage emotions. Disorders are common things among the general population and have been on the rise for a decade, but young people have especially been affected by them since the COVID-19 crisis heavily impacted their lives. Thankfully, there are as many support methods as there are life experiences to help out everyone take care of their mental health.
             </h2>
+
+            <h1 className='head_text mb-10'>
+                Based On
+                <span className='orange_gradient'> True Story</span>
+            </h1>
+
+            <button
+                type="button"
+                className='black_btn font-poppins mb-5'>
+                Example #1
+            </button>
+
+            <img className="img1" src="src/assets/boy.jpg" />
+
+            <h1 className="desc_1">
+            Ilustration based on AI generated
+            </h1>
+
+            <h2 className="desc_2"><br />
+            In the vibrant setting of an Indonesian university, there lived a young man named Adi. Despite the hustle and bustle of campus life, Adi carried the weight of a silent struggle. His parents' divorce had cast a shadow over his life, leading to profound mental health challenges.
+<br />
+<br />
+Adi, once an outgoing and lively student, found himself grappling with anxiety and a deep sense of loss. The separation of his parents had left emotional scars that affected his academic performance and social interactions. His passion for studies dwindled, and he often withdrew from friends and activities that once brought him joy.
+<br /><br />
+One day, feeling overwhelmed, Adi decided to confide in a close friend. The friend, understanding and compassionate, encouraged Adi to seek professional support. Hesitant at first, Adi eventually reached out to the university's counseling services, where he found a safe space to express his feelings and fears.
+<br /><br />
+Through counseling, Adi began to unravel the complexities of his emotions and develop coping mechanisms. The university, recognizing the prevalence of such challenges among students, initiated support groups and awareness campaigns to foster a compassionate community.
+<br /><br />
+With time and support, Adi started to rebuild his life. The university environment, once a source of stress, became a place of healing and growth. Adi's journey showcased the importance of addressing mental health challenges, especially in the context of family dynamics, and the significance of creating a supportive community within educational institutions.
+            </h2>
+            <br /><br />
+            <button
+                type="button"
+                className='black_btn font-poppins mb-5'>
+                Example #2
+            </button>
+
+            <img className="img1" src="src/assets/girl.jpg" />
+
+            <h1 className="desc_1">
+            Ilustration based on AI generated
+            </h1>
+
+            <h2 className="desc_2"><br />
+            In a bustling university, there was a girl named Putri who radiated confidence and enthusiasm. Little did her peers know, behind her bright smile, she carried the weight of a traumatic experience. Putri had been a victim of sexual harassment, an ordeal that left her grappling with the profound impact on her mental health.
+            <br /><br />
+As she navigated the halls of academia, Putri found herself wrestling with anxiety and depression triggered by the memories of the incident. The once vibrant student began to withdraw, avoiding social interactions and isolating herself from friends and classmates. Her academic performance suffered as she grappled with flashbacks and a pervasive sense of vulnerability.
+<br /><br />
+Despite the challenges, Putri decided to confide in a trusted friend. Opening up was a crucial step in her healing journey. The friend, empathetic and supportive, encouraged Putri to seek professional help from the university's counseling services. With time and therapeutic support, Putri started to regain her sense of self and cope with the emotional aftermath of the harassment.
+<br /><br />
+Through the ups and downs, Putri discovered the power of resilience and the importance of a compassionate support system. The university, recognizing the need for awareness and preventive measures, initiated campaigns addressing sexual harassment and implemented support structures for survivors.
+<br /><br />
+Putri's story serves as a reminder that the impact of sexual harassment extends beyond the visible, highlighting the vital role of empathy, understanding, and institutional support in fostering a safe and nurturing environment for everyone in the university community.
+<br /><br />
+            </h2>
+            <br /><br />
         </header>
     )
 }
