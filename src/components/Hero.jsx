@@ -10,7 +10,7 @@ const Hero = () => {
 
                 <button
                     type="button"
-                    onClick={() => window.open('https://albertirgi.tech/')}
+                    onClick={() => window.open('https://albertirgi.me/')}
                     className='black_btn font-poppins mt-1'>
                     {'</>'} albertirgi {'</>'}
                 </button>
